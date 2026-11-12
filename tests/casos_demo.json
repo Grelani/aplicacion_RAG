@@ -1,0 +1,30 @@
+[
+  {
+    "pregunta": "¿En qué se diferencia la clasificación de la regresión?",
+    "fuente_esperada": "01_fundamentos_aprendizaje_automatico.md"
+  },
+  {
+    "pregunta": "¿Qué es la fuga de datos en preprocesamiento?",
+    "fuente_esperada": "02_preprocesamiento_y_datos.txt"
+  },
+  {
+    "pregunta": "¿Qué significa k en el algoritmo de vecinos más cercanos?",
+    "fuente_esperada": "03_algoritmos_supervisados.md"
+  },
+  {
+    "pregunta": "¿Qué es la función ReLU y cómo opera?",
+    "fuente_esperada": "04_redes_neuronales.md"
+  },
+  {
+    "pregunta": "¿Qué diferencia hay entre precisión y recall?",
+    "fuente_esperada": "05_metricas_y_evaluacion.pdf"
+  },
+  {
+    "pregunta": "¿Cuáles fueron los nombres de los astronautas que llegaron a la Luna en 1969?",
+    "fuente_esperada": null
+  },
+  {
+    "pregunta": "¿En qué año se inauguró el Metro de Morelia?",
+    "fuente_esperada": null
+  }
+]

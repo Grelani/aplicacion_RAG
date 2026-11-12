@@ -1,0 +1,24 @@
+PREPROCESAMIENTO Y PREPARACIÓN DE DATOS
+
+Material didáctico original para el proyecto DocuChat AI.
+
+¿QUÉ ES EL PREPROCESAMIENTO?
+Antes del entrenamiento, los datos suelen necesitar limpieza, transformación y organización. Estas operaciones mejoran la consistencia del conjunto y facilitan el aprendizaje. El preprocesamiento no garantiza por sí solo que el modelo sea correcto.
+
+VALORES FALTANTES
+Cuando una variable presenta valores ausentes, se puede decidir eliminar registros, imputar mediante la media o mediana, usar una categoría explícita o aplicar modelos específicos de imputación. La opción depende de por qué faltan los datos y del tipo de variable. La imputación debe ajustarse únicamente con el conjunto de entrenamiento para evitar fuga de información.
+
+ESCALADO
+El escalado transforma la magnitud de las variables numéricas. La estandarización suele restar la media y dividir por la desviación estándar. La normalización min-max permite expresar valores en un intervalo, con frecuencia entre cero y uno. Algoritmos como KNN, que dependen de distancias, suelen ser sensibles a escalas distintas.
+
+VARIABLES CATEGÓRICAS
+La codificación one-hot representa cada categoría mediante una columna indicadora. No siempre es la mejor opción para variables con muchísimas categorías. Es importante conservar la misma transformación en entrenamiento y predicción.
+
+PARTICIÓN DE DATOS
+Para un ejemplo educativo, podemos dividir el conjunto en 70 % de entrenamiento, 15 % de validación y 15 % de prueba. Estos porcentajes son ilustrativos y no una regla universal. Entrenamiento sirve para ajustar parámetros; validación, para elegir configuraciones y comparar modelos; prueba, para evaluar el resultado final sobre datos no utilizados en esas decisiones.
+
+FUGA DE DATOS
+La fuga de datos (data leakage) ocurre cuando información que no estaría disponible en una predicción real llega al proceso de entrenamiento o selección del modelo. Por ejemplo, calcular el promedio de toda la base, incluida la parte de prueba, antes de partir los datos puede contaminar la evaluación. Otro caso es incluir una variable construida con información del futuro.
+
+DATOS DESBALANCEADOS
+Si una clase aparece con mucha menos frecuencia que otra, la exactitud por sí sola puede ofrecer una evaluación engañosa. Conviene revisar la matriz de confusión, precisión, recall y la puntuación F1. Según el objetivo, también pueden usarse ponderaciones de clase o técnicas de remuestreo aplicadas solo a entrenamiento.

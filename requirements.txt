@@ -1,0 +1,7 @@
+# Recomendado: Python 3.11 o 3.12, entorno virtual.
+streamlit>=1.42,<2
+chromadb>=1.0,<2
+sentence-transformers>=3.3,<7
+PyMuPDF>=1.24,<2
+requests>=2.32,<3
+pytest>=8,<10
