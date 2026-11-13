@@ -5,7 +5,7 @@ DocuChat AI is a Python application that allows users to ask questions about doc
 Institution: Escuela Nacional de Estudios Superiores (ENES), Morelia — Universidad Nacional Autónoma de México (UNAM).
 
 Developed by: Bialy Calderón and Grecia Arias.
-bialycalderonm@gmail.com
+bialycalderonm@gmail.com  
 greciaariaass@gmail.com
 
 The main goal is to generate answers based on the content of provided documents without retraining the language model.
