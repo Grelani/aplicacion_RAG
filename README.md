@@ -166,8 +166,3 @@ The model receives the retrieved document fragments and generates natural langua
 This project was developed as an academic exercise to explore techniques for extending the knowledge available to artificial intelligence models through external information retrieval.
 
 It demonstrates document processing, text embeddings, vector databases, semantic search, and Retrieval-Augmented Generation (RAG).
-**Email:** [your.email@example.com]
-
-**Repository:** [aplicacion_RAG](https://github.com/Grelani/aplicacion_RAG)
-
-For questions, suggestions, or feedback, feel free to contact me through GitHub or email.
